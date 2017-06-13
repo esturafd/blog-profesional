@@ -84,3 +84,20 @@ body {
 	margin-top: 40px;
 	font-family: 'Merriweather', serif;
 }
+
+.cls_pinfo {
+	display: block;
+	font-size: 15px;
+	margin: 5px 0 5px 0;
+	color: #959595;
+	font-family: 'Amatic SC', cursive;
+}
+
+.cls_pdes {
+	font-size: 13px;
+	color: #A4A4A4;
+}
+
+.cls_ptitle {
+	font-size: 20px;
+}
