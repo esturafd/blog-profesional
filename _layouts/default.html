@@ -5,48 +5,17 @@
 		<title>{{ site.title }}</title>
 		<link rel="icon" type="image/svg+xml" sizes="any" href="/image/faro-icono.png">
 		<link rel="stylesheet" type="text/css" href="estilos.css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 	</head>
 	<body>
-		<header class="cls_header">
-			<div class="cls_center">
-				<a href="/"><img src="/image/faro-icono.png" class="cls_inlineb" width="42" height="42"></a>
-				<a href="/" class="cls_title cls_inlineb">{{ site.title }}</a>
-				<nav class="cls_inlineb">
-					<ul class="cls_inlineb">
-						<li class="cls_inlineb"><a href="/sobre.html">Sobre mi</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<section class="cls_center">
+		{% include header.html %}
+		
+		<section class="cls_center cls_content">
 			
 			{{ content }}
 			
 		</section>
-		<footer class="cls_footer">
-			<div class="cls_center cls_flex">
-				<div class="">
-					{{ site.title }}
-					<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-				</div>
-				<div class="">
-					{% if site.github_username %}
-					<div>
-						<img src="/image/sm-github.png" class="cls_imgsm cls_inlineb">
-						<a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a>
-					</div>
-					{% endif %}
-					{% if site.twitter_username %}
-					<div>
-						<img src="/image/sm-twitter.png" class="cls_imgsm cls_inlineb">
-						<a href="https://twitter.com/{{ site.github_username }}" target="_blank">{{ site.twitter_username }}</a>
-					</div>
-					{% endif %}
-				</div>
-				<div class="cls_description">
-					{{ site.description }}
-				</div>
-			</div>
-		</footer>
+		
+		{% include footer.html %}
 	</body>
 </html>
