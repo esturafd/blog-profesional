@@ -1,4 +1,4 @@
-<footer {% if page.url contains "/sobre-mi.html" %}class="cls_footer cls_down"{%else%}class="cls_footer"{% endif %}>
+<footer class="cls_footer">
 	<br>
 	<div class="cls_center cls_flex">
 		<div class="">
@@ -24,3 +24,14 @@
 		</div>
 	</div>
 </footer>
+<script>
+	(function () {
+		var footer = document.getElementsByTagName("footer")[0];
+		var altNav = window.screen.availHeight;
+		var altDoc = document.getElementById("contenido").clientHeight;
+		altDoc += (document.getElementsByTagName("header")[0].clientHeight + footer.clientHeight);
+		if (altNav > altDoc) {
+			footer.classList.add("cls_down");
+		}
+	}) ();
+</script>
