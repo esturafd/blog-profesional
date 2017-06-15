@@ -1,5 +1,5 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
-<link rel="icon" type="image/svg+xml" sizes="any" href="{% if page.url contains '/blog-profecional/' %}{% else %}/blog-profesional{% endif %}/image/faro-icono.png">
-<link rel="stylesheet" type="text/css" href="{% if page.url contains '/blog-profecional/' %}{% else %}/blog-profesional{% endif %}/estilos.css">
+<link rel="icon" type="image/svg+xml" sizes="any" href="{{ '/image/faro-icono.png' | absolute_url }}">
+<link rel="stylesheet" type="text/css" href="{{ '/estilos.css' | absolute_url }}">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Merriweather" rel="stylesheet">
