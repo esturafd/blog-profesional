@@ -17,7 +17,7 @@
 					<span class="cls_pinfo">{{ post.date | date: "%d-%m-%Y %T" }} {% if post.author %}{{ post.author }}{% endif %}</span>
 					<span class="cls_pdes">{{ post.excerpt | strip_html }}</span>
 					{{ post.url | absolute_url }}
-					{{ site.baseurl }}
+					{{ site.github.url }}
 				</div>
 			{% endfor %}
 			
