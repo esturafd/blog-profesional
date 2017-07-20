@@ -8,13 +8,13 @@
 		<div class="">
 			{% if site.github_username %}
 			<div>
-				<img src="{{ '/image/sm-github.png' | absolute_url }}" class="cls_imgsm cls_inlineb">
+				<img src="{{ site.baseurl }}/image/sm-github.png" class="cls_imgsm cls_inlineb">
 				<a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a>
 			</div>
 			{% endif %}
 			{% if site.twitter_username %}
 			<div>
-				<img src="{{ '/image/sm-twitter.png' | absolute_url }}" class="cls_imgsm cls_inlineb">
+				<img src="{{ site.baseurl }}/image/sm-twitter.png" class="cls_imgsm cls_inlineb">
 				<a href="https://twitter.com/{{ site.github_username }}" target="_blank">{{ site.twitter_username }}</a>
 			</div>
 			{% endif %}
