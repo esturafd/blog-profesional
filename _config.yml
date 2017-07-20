@@ -33,4 +33,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
 encoding: "bom|utf-8"
-baseurl: blog-profesional
