@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "[Instalación] Docker Toolbox en Cygwin"
-date:   2017-06-11 16:23:44 -0600
+date:   2017-07-20 14:23:44 -0600
 author: "@streameast"
-categories: jekyll cygwin
+categories: docker cygwin wimpty
 ---
 
 Bueno, es el segundo post, no es mi intención solo hablar solo de Cygwin pero 
