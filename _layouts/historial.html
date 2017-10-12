@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		{% include meta.html %}
+	</head>
+	<body>
+		{% include header.html %}
+		
+		<br>
+		<section id="contenido" class="post-box center post">
+			
+			<h1>Hisotiral de posts</h1>
+			
+			{% for post in site.posts %}
+				<br>
+				<div class="post-list post-box-view">
+					<span class="meta-box">{{ post.date | date: "%d-%m-%Y %T" }} {% if post.author %}{{ post.author }}{% endif %}</span>
+					<a href="{{ site.github.url }}{{ post.url }}" class="title-box">{{ post.title }}</a>
+				</div>
+			{% endfor %}
+			
+		</section>
+		<br>
+		
+		{% include footer.html %}
+	</body>
+</html>

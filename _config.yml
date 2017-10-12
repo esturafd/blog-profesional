@@ -26,11 +26,7 @@ github_username:  streameast
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+permalink: /:year/:month/:day/:categories/:title/
+
 encoding: "bom|utf-8"
-baseurl: "blog-profesional"
+#baseurl: "blog-profesional"

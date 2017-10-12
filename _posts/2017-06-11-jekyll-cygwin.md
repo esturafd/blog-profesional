@@ -4,6 +4,7 @@ title:  "[Instalación] Jekyll en Cygwin"
 date:   2017-06-11 16:23:44 -0600
 author: "@streameast"
 categories: jekyll cygwin
+comments: yes
 ---
 
 Desde hace un tiempo que quería empezar a escribir un blog, para documentar
@@ -11,7 +12,7 @@ algunas cosas que hago y talves compartir algunas soluciones que he encontrado,
 ya saben de esas que te quiebras la cabeza tratando de solucionar y cuando 
 terminas no tienes idea de lo que hiciste, bueno problema solucionado.
 
-### ¿Por qué Cygwin?
+## ¿Por qué Cygwin?
 
 Ya llevo un tiempo queriendo ser linuxero, pero por una u otra razón no
 he podido hacer que este sea mi sistema operativo principal, en el trabajo
@@ -21,14 +22,14 @@ al pie de la letra ser linuxero. A pesar de esto, decidí instalar lo más
 cercano a esto en Windows, Cygwin, y esto sumado a que trabajo con servidores
 linux, quiero pensar que en mi interior tengo algo de linuxero.
 
-### ¿Que es Jekyll?
+## ¿Que es Jekyll?
 
 Jekyll es un simple generador de sitios estáticos. Es un motor de análisis 
 sintetizado como una gema de ruby que se utiliza para construir sitios web
 estáticos a partir de componentes dinámicos como plantillas, código Liquid,
 Markdown, etc.
 
-### Instalación
+## Instalación
 
 Me hubiera gustado documentar cada uno de los pasos que hice pero esto lo 
 esto escribiendo ya un tiempo después, así que vamos con un resumen:
