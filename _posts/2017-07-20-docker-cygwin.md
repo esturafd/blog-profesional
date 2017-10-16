@@ -4,6 +4,7 @@ title:  "[Instalación] Docker Toolbox en Cygwin"
 date:   2017-07-20 14:23:44 -0600
 author: "@streameast"
 categories: docker cygwin wimpty
+comments: yes
 ---
 
 Bueno, es el segundo post, no es mi intención solo hablar solo de Cygwin pero 

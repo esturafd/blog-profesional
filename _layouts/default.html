@@ -6,16 +6,17 @@
 	<body>
 		{% include header.html %}
 		
-		<section id="contenido" class="cls_center cls_content">
+		<section id="contenido" class="center">
 			
 			{{ content }}
 			
-			{% for post in site.posts limit:10 %}
+			{% for post in site.posts limit:5 %}
 				<br>
-				<div>
-					<a href="{{ site.github.url }}{{ post.url }}" class="cls_ptitle">{{ post.title }}</a>
-					<span class="cls_pinfo">{{ post.date | date: "%d-%m-%Y %T" }} {% if post.author %}{{ post.author }}{% endif %}</span>
-					<span class="cls_pdes">{{ post.excerpt | strip_html }}</span>
+				<div class="post-box post-box-view">
+					<a href="{{ site.github.url }}{{ post.url }}" class="title-box">{{ post.title }}</a>
+					<span class="meta-box">{{ post.date | date: "%d-%m-%Y %T" }} {% if post.author %}{{ post.author }}{% endif %}</span>
+					<span class="text-box">{{ post.excerpt | strip_html }}</span>
+					<a href="{{ site.github.url }}{{ post.url }}" class="button-box"><div>seguir leyendo</div></a>
 				</div>
 			{% endfor %}
 			

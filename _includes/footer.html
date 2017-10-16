@@ -1,6 +1,6 @@
-<footer class="cls_footer">
+<footer class="footer">
 	<br>
-	<div class="cls_center cls_flex">
+	<div class="center flex">
 		<div class="">
 			{{ site.title }}
 			<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
@@ -8,18 +8,18 @@
 		<div class="">
 			{% if site.github_username %}
 			<div>
-				<img src="{{ site.github.url }}/image/sm-github.png" class="cls_imgsm cls_inlineb">
+				<img src="{{ site.github.url }}/image/sm-github.png" class="img-footer">
 				<a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a>
 			</div>
 			{% endif %}
 			{% if site.twitter_username %}
 			<div>
-				<img src="{{ site.github.url }}/image/sm-twitter.png" class="cls_imgsm cls_inlineb">
+				<img src="{{ site.github.url }}/image/sm-twitter.png" class="img-footer">
 				<a href="https://twitter.com/{{ site.github_username }}" target="_blank">{{ site.twitter_username }}</a>
 			</div>
 			{% endif %}
 		</div>
-		<div class="cls_description">
+		<div class="des-footer">
 			{{ site.description }}
 		</div>
 	</div>
@@ -31,7 +31,7 @@
 		var altDoc = document.getElementById("contenido").clientHeight;
 		altDoc += (document.getElementsByTagName("header")[0].clientHeight + footer.clientHeight);
 		if (altNav > altDoc) {
-			footer.classList.add("cls_down");
+			footer.classList.add("down-footer");
 		}
 	}) ();
 </script>
