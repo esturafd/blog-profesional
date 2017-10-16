@@ -31,14 +31,20 @@ Markdown, etc.
 ### Instalación
 
 Me hubiera gustado documentar cada uno de los pasos que hice pero esto lo 
-esto escribiendo ya un tiempo después, así que vamos con un resumen:
+estoy escribiendo ya un tiempo después, así que vamos con un resumen:
 
 Lo primero es instalar las dependencias necesarias del repositorio de Cygwin,
-en donde instalé los paquetes:
+instalar las que les falten:
 
+* libffi4 
+* libffi-devel
 * ruby
 * ruby-bundler
 * ruby-devel
+* ruby-bigdecimal
+
+ruby-bigdecimal lo termine instalando con gem, pero ustedes pueden hacerlo por 
+cualquiera de los dos, en teoria funciona igual.
 
 ![cygwin-intall-ruby](https://image.ibb.co/j1gbDF/cygwin_intall_ruby.png)
 
@@ -55,7 +61,8 @@ $ bundler --version
 Bundler version 1.15.1
 ```
 
-Luego de esto instalamos la ultima dependencia por medio del comando gem:
+Luego de esto instale la ultima dependencia por medio del comando gem, pero si
+la instalaron en el paso anterior, no es necesario:
 
 `$ gem install bigdecimal`
 
