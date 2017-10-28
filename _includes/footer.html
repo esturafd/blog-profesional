@@ -26,12 +26,11 @@
 </footer>
 <script>
 	(function () {
+		var header = document.getElementsByTagName("header")[0];
 		var footer = document.getElementsByTagName("footer")[0];
-		var altNav = window.screen.availHeight;
-		var altDoc = document.getElementById("contenido").clientHeight;
-		altDoc += (document.getElementsByTagName("header")[0].clientHeight + footer.clientHeight);
-		if (altNav > altDoc) {
-			footer.classList.add("down-footer");
-		}
+		var contenido = document.getElementById("contenido");
+		var pantalla = window.innerHeight;
+		var foo = pantalla - (header.clientHeight + footer.clientHeight +1);
+		contenido.style.minHeight = foo + 'px';
 	}) ();
 </script>
