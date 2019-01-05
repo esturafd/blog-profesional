@@ -16,11 +16,11 @@
 title: El stream del este
 email: tasher25@hotmail.es
 description: > # this means to ignore newlines until "baseurl:"
-  Este es un blog hecho con la intecion de documentar algunas 
-  experiencias tecnologicas interesantes o a mi parecer con algun 
+  Este es un blog hecho con la intecion de documentar algunas
+  experiencias tecnologicas interesantes o a mi parecer con algun
   valor profesional, bienvenido a este blog: El stream del este.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.streameast.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: streameast
 github_username:  streameast
 
