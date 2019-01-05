@@ -9,7 +9,7 @@ comments: yes
 
 Desde hace un tiempo que quería empezar a escribir un blog, para documentar
 algunas cosas que hago y talves compartir algunas soluciones que he encontrado,
-ya saben de esas que te quiebras la cabeza tratando de solucionar y cuando 
+ya saben de esas que te quiebras la cabeza tratando de solucionar y cuando
 terminas no tienes idea de lo que hiciste, bueno problema solucionado.
 
 ## ¿Por qué Cygwin?
@@ -18,33 +18,33 @@ Ya llevo un tiempo queriendo ser linuxero, pero por una u otra razón no
 he podido hacer que este sea mi sistema operativo principal, en el trabajo
 uso Windows, como muchos y mi computadora personal de una forma u otra
 acaba descompuesta o con algún otro inconveniente, por lo que no he podido
-al pie de la letra ser linuxero. A pesar de esto, decidí instalar lo más 
+al pie de la letra ser linuxero. A pesar de esto, decidí instalar lo más
 cercano a esto en Windows, Cygwin, y esto sumado a que trabajo con servidores
 linux, quiero pensar que en mi interior tengo algo de linuxero.
 
 ## ¿Que es Jekyll?
 
-Jekyll es un simple generador de sitios estáticos. Es un motor de análisis 
+Jekyll es un simple generador de sitios estáticos. Es un motor de análisis
 sintetizado como una gema de ruby que se utiliza para construir sitios web
 estáticos a partir de componentes dinámicos como plantillas, código Liquid,
 Markdown, etc.
 
 ## Instalación
 
-Me hubiera gustado documentar cada uno de los pasos que hice pero esto lo 
+Me hubiera gustado documentar cada uno de los pasos que hice pero esto lo
 estoy escribiendo ya un tiempo después, así que vamos con un resumen:
 
 Lo primero es instalar las dependencias necesarias del repositorio de Cygwin,
 instalar las que les falten:
 
-* libffi4 
+* libffi4
 * libffi-devel
 * ruby
 * ruby-bundler
 * ruby-devel
 * ruby-bigdecimal
 
-ruby-bigdecimal lo termine instalando con gem, pero ustedes pueden hacerlo por 
+ruby-bigdecimal lo termine instalando con gem, pero ustedes pueden hacerlo por
 cualquiera de los dos, en teoria funciona igual.
 
 ![cygwin-intall-ruby](https://image.ibb.co/j1gbDF/cygwin_intall_ruby.png)
@@ -74,7 +74,7 @@ Instalamos Jekyll:
 Después de esto me topé con el problema que no funcionaba el comando jekyll,
 pero revisando la ruta donde realicé la instalación noté una carpeta bin, la
 cual no estaba con anterioridad, aquí estaban los ejecutables de las gemas
-instaladas, así que me puse a ver si estas ya estaban en la carpeta de 
+instaladas, así que me puse a ver si estas ya estaban en la carpeta de
 binarios y los que no, los moví.
 
 ```
