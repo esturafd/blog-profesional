@@ -5,24 +5,24 @@
 	</head>
 	<body>
 		{% include header.html %}
-		
+
 		<section id="contenido" class="center">
-			
+
 			{{ content }}
-			
+
 			{% for post in site.posts limit:5 %}
 				<br>
 				<div class="post-box post-box-view">
-					<a href="{{ site.github.url }}{{ post.url }}" class="title-box">{{ post.title }}</a>
+					<a href="{{ post.url }}" class="title-box">{{ post.title }}</a>
 					<span class="meta-box">{{ post.date | date: "%d-%m-%Y %T" }} {% if post.author %}{{ post.author }}{% endif %}</span>
 					<span class="text-box">{{ post.excerpt | strip_html }}</span>
-					<a href="{{ site.github.url }}{{ post.url }}" class="button-box"><div>seguir leyendo</div></a>
+					<a href="{{ post.url }}" class="button-box"><div>seguir leyendo</div></a>
 				</div>
 			{% endfor %}
-			
+
 			<br>
 		</section>
-		
+
 		{% include footer.html %}
 	</body>
 </html>
