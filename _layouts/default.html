@@ -15,7 +15,7 @@
 				<div class="post-box post-box-view">
 					<a href="{{ post.url }}" class="title-box">{{ post.title }}</a>
 					<span class="meta-box">{{ post.date | date: "%d-%m-%Y %T" }} {% if post.author %}{{ post.author }}{% endif %}</span>
-					<span class="text-box">{{ post.excerpt | strip_html }}</span>
+					<span class="text-box">{{ post.excerpt | strip_html | truncatewords: 60 }}</span>
 					<a href="{{ post.url }}" class="button-box"><div>seguir leyendo</div></a>
 				</div>
 			{% endfor %}
