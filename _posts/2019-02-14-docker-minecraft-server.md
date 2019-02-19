@@ -7,10 +7,10 @@ categories: docker minecraft server servidor
 comments: yes
 ---
 
-En este post voy a mostrar una [imagen](https://github.com/streameast/docker-minecraft-server)
+En este post voy a mostrar una [imagen](https://github.com/streameast/docker-minecraft-server){:target="\_blank"}
 docker para levantar un servidor de minecraft de manera fácil y curiosa si eres
 un entusiasta docker; si no sabes y tienes interés en la tecnología docker, tienes
-mas información [aquí](https://www.youtube.com/watch?v=hQgvt-s-AHQ).
+mas información [aquí](https://www.youtube.com/watch?v=hQgvt-s-AHQ){:target="\_blank"}.
 
 ![docker](https://www.docker.com/sites/default/files/social/docker_facebook_share.png)
 
@@ -48,4 +48,4 @@ Debido a esto se crearon las variables MINECRAFT_XMX y MINECRAFT_XMS que manejan
 memoria asignada a la aplicación, volví a ejecutar la imagen asignando 512M a las
 dos variables y funciono muy bien, el consumo se mantiene por los 700MB.
 
-Mas información en la pagina del [proyecto](https://github.com/streameast/docker-minecraft-server).
+Mas información en la pagina del [proyecto](https://github.com/streameast/docker-minecraft-server){:target="\_blank"}.
