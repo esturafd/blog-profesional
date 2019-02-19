@@ -101,8 +101,9 @@ body {
 }
 
 .post {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
 	text-align: justify;
 }
 
@@ -120,11 +121,16 @@ body {
 }
 
 .post code, .post pre {
-	font-size: 15px; 
-	border: 1px solid #E0E0F8; 
-	border-radius: 3px; 
+	font-size: 13px;
+	border: 1px solid #E0E0F8;
+	border-radius: 3px;
 	background-color: #E0E0F8;
 	color: #202020;
+}
+
+.post pre {
+	font-family: 'courier', sans-serif;
+	padding: 16px;
 }
 
 .footer {
@@ -165,4 +171,3 @@ body {
 	position: absolute;
 	bottom: 0;
 }
-

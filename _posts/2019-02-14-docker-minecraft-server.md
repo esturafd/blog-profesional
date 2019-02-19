@@ -12,6 +12,8 @@ docker para levantar un servidor de minecraft de manera fácil y curiosa si eres
 un entusiasta docker; si no sabes y tienes interés en la tecnología docker, tienes
 mas información [aquí](https://www.youtube.com/watch?v=hQgvt-s-AHQ).
 
+![docker](https://www.docker.com/sites/default/files/social/docker_facebook_share.png)
+
 Desde hace algún tiempo eh tenido la armonía de jugar algo en cooperativo con los
 amigos, montar un servidor, reunirnos un poco de pizza y darle a jugar, pero no nos
 decidíamos que juego poner.
